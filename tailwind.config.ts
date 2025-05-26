@@ -16,6 +16,14 @@ export default {
         'pure-dark-gray': '#333333',
         'muted-salmon': '#ebc7b5'
       },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+        },
+      },
     },
   },
   plugins: [],
