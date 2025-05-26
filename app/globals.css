@@ -1,6 +1,12 @@
+@import url("https://use.typekit.net/xer3mak.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: stratos-lights, sans-serif;
+}
 
 /* :root {
   --background: #ffffff;
