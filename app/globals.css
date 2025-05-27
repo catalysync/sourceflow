@@ -8,6 +8,21 @@ body {
   font-family: stratos-lights, sans-serif;
 }
 
+p {
+  @apply leading-6;
+}
+
+.container {
+  @apply mx-auto my-0;
+}
+
+.section {
+  @apply h-full lg:rounded-b-[100px];
+}
+
+.banner {
+  @apply bg-[url('../assets/images/hero.svg')] bg-no-repeat bg-cover bg-[left_center] pt-0;
+}
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
