@@ -14,7 +14,8 @@ export default {
         foreground: "var(--foreground)",
         'light-sepia': '#f8ede5', 
         'pure-dark-gray': '#333333',
-        'muted-salmon': '#ebc7b5'
+        'muted-salmon': '#ebc7b5',
+        'petrol-blue': '#0f86a1'
       },
       container: {
         center: true,
