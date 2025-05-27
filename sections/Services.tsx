@@ -10,7 +10,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Services = () => {
   return (
-    <div className="bg-[url('../assets/images/bg_courses.svg')] bg-no-repeat bg-cover bg-center rounded-[50px] py-24">
+    <div className="bg-[url('/bg_courses.svg')] bg-no-repeat bg-cover bg-center rounded-[50px] py-24">
       <div className="container">
         <div className="
             flex flex-col xl:flex-row
@@ -51,7 +51,7 @@ const Services = () => {
             <Link href="#" className="
                 pr-8 text-petrol-blue text-xl
                 tracking-[0.01em] uppercase font-light
-                bg-[url('../assets/images/ico_arrow-blue.svg')]
+                bg-[url('/ico_arrow-blue.svg')]
                 bg-no-repeat bg-[right_50%] self-start transition-all duration-200
                 mb-12 z-[3]
               ">
@@ -98,7 +98,7 @@ const Services = () => {
               className="
                 pr-8 text-petrol-blue text-xl
                 tracking-[0.01em] uppercase font-light
-                bg-[url('../assets/images/ico_arrow-blue.svg')]
+                bg-[url('/ico_arrow-blue.svg')]
                 bg-no-repeat bg-[right_50%] self-start transition-all duration-200
                 mb-12 z-[3]
               ">
@@ -151,7 +151,7 @@ const Services = () => {
             <Link href="#" className="
                 pr-8 text-petrol-blue text-xl
                 tracking-[0.01em] uppercase font-light
-                bg-[url('../assets/images/ico_arrow-blue.svg')]
+                bg-[url('/ico_arrow-blue.svg')]
                 bg-no-repeat bg-[right_50%] self-start transition-all duration-200
                 mb-12 z-[3]
               ">

@@ -21,7 +21,7 @@ p {
 }
 
 .banner {
-  @apply bg-[url('../assets/images/hero.svg')] bg-no-repeat bg-cover bg-[left_center] pt-0;
+  @apply bg-[url('/hero.svg')] bg-no-repeat bg-cover bg-[left_center] pt-0;
 }
 /* :root {
   --background: #ffffff;
